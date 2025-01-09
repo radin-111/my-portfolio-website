@@ -13,9 +13,12 @@
 
 }
 .head{
+    margin-top: 0px;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, left bottom;
+    background-color: #FFF8F3;
+    
 }
 nav ul li{
     list-style: none;
@@ -69,8 +72,72 @@ nav{
 .banner-g{
     font-size: 45px;
     font-weight: normal;
+    margin-bottom: 0;
 }
 .banner-t{
     font-size: 80px;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about{
+    background-color: #FFF8F3;
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+.ab-t{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.items-a{
+    padding:130px 150px;
+}
+.a-p{
+    color: #757575;
+    font-size: 18px;
+
+}
+.adi{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 131px;
+}
+.adt{
+    color: #474747;
+
+}
+.decon{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-right: 230px;
+    margin-left: 230px;
+}
+.skill-t{
+    font-weight: bold;
+    font-size: 20px;
+}
+.skill{
+    max-height: 377px;
+    width: 267px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+}
+.skill-d{
+    color: #757575;
+    text-align: justify;
 }
